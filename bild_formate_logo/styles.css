@@ -1,0 +1,45 @@
+body {
+	background: #009de2;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.logo_png{
+	background-image: url(bold_logo.png);
+	width: 476px;
+	height: 180px;
+	display: inline-block;
+	margin: 20px;
+}
+.logo_gif{
+	background-image: url(bold_logo.gif);
+	width: 476px;
+	height: 180px;
+	display: inline-block;
+	margin: 20px;
+}
+ 
+/* --------------------------
+ 
+Now we add the actual animation.
+ 
+--------------------------- */
+
+.bold_text {
+	transition: .3s ease-out;
+}
+.bold_text:hover {
+	fill: #009de2;
+}

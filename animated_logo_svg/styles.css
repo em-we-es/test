@@ -1,0 +1,35 @@
+body {
+	background: #009de2;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+svg{
+	width: 60vw;
+	
+}
+ 
+/* --------------------------
+ 
+Now we add the actual animation.
+ 
+--------------------------- */
+
+.bold_text {
+	transition: .3s ease-out;
+}
+.bold_text:hover {
+	fill: #009de2;
+}
